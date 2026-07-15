@@ -8,7 +8,7 @@ import time
 
 # Configuracion del hardware
 RUTA_CHIP = '/dev/gpiochip1'
-PINES = [24, 22, 25, 23]    # Orden de LEDs ordenados
+PINES = [24, 22, 25, 23]    # LEDs ordenados -> GPIO1_DO, GPIO1_C6, GPIO1_D1, GPIO1_C7
 VELOCIDAD = 0.2             # Tiempo entre cada paso (200 ms)
 
 print("LEDs con efecto del Auto Fantastico... Presiona Ctrl+C para detener.")
