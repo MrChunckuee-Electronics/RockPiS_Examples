@@ -1,9 +1,15 @@
 # RockPiS: I2C OLED 128x64 scripts
 Example scripts for controlling a 128x64 OLED on our Rock Pi S.
 
+| # | Name Script | Description | 
+| :--- | :--- | :--- |
+| 1 | Lab001_I2C_oled_short_text.py | Displays a short text |
+| 2 |  |  |
+| 3 |  |  |
+
 ## Hardware Connection
 
-| Rock Pi S: Pin | Rock Pi S: Function | OLED Pinout|
+| Rock Pi S: # Pin | Rock Pi S: Function | OLED Pinout|
 | :--- | :--- | :--- |
 | 1 | +3V3 | VDD |
 | 3 | I2C1_SDA | SDA |
@@ -18,7 +24,7 @@ Example scripts for controlling a 128x64 OLED on our Rock Pi S.
 ### Step 1 - Enable I2C Overlay
 
 ``` python
-rsetup # Overlays => Yes => Manage overlays => Select "Enable I2C1" => Ok => Ok => Cancel => Cancel
+rsetup => Overlays => Yes => Manage overlays => Select "Enable I2C1" => Ok => Ok => Cancel => Cancel
 sudo reboot
 ```
 
