@@ -31,7 +31,8 @@ sudo reboot
 ### Step 2 - Install Python's dependencies
 
 ``` python
-sudo apt install python-periphery pillow
+sudo apt install python-periphery
+sudo apt install python3-pil
 ```
 
 ## Documentation & Tutorial
