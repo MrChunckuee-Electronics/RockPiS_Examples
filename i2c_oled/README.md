@@ -4,7 +4,7 @@ Example scripts for controlling a 128x64 OLED on our Rock Pi S.
 | # | Name Script | Description | 
 | :--- | :--- | :--- |
 | 1 | Lab001_I2C_oled_short_text.py | Displays a short text |
-| 2 |  |  |
+| 2 | Lab002_I2C_oled_long_text.py | Displays a long text, added class OledI2C with funciotions for OLED |
 | 3 |  |  |
 
 ## Hardware Connection
