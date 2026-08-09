@@ -8,7 +8,6 @@ from textwrap import wrap
 from periphery import I2C
 from PIL import Image, ImageDraw, ImageFont
 
-
 class OledI2C:
     """OledI2C Class"""
     def __init__(self, bus:str="/dev/i2c-1", address:int=0x3C) -> None:
@@ -18,7 +17,7 @@ class OledI2C:
         self.i2c = I2C(self.bus)
         self.width = 128
         self.height = 64
-        self.font = ImageFont.load_default()
+        self.font = ImageFont.load_default() #default text on PIL
         self.OLED_Initialize()
 
     def SSD1306_Command(self, cmd:int) -> None:
